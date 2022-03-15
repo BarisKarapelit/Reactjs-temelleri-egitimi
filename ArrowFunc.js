@@ -24,3 +24,10 @@
 //     x+y
 // )
 // console.log(demoYeni(45,9))
+let toplam = (x,y,z)=> 
+{
+    let sonuc = x+y+z
+    return sonuc;
+}
+
+console.log(toplam(8,9,1))
