@@ -31,9 +31,9 @@
 // }
 
 // console.log(toplam(8,9,1))
-    console.log("Please The Age :")
-    const readline = require('readline').createInterface({
-        input: process.stdin,
-        output: process.stdout
-      });
+    // console.log("Please The Age :")
+    // const readline = require('readline').createInterface({
+    //     input: process.stdin,
+    //     output: process.stdout
+    //   });
       
