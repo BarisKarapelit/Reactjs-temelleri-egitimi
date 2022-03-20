@@ -5,4 +5,8 @@ const personel =[
     {id:4,isim:"fff", soyisim:"yyy", memleket:"ooo"},
 
 ];
-personel.forEach(kisi => console.log(`isim : ${kisi.isim}`)) // Alt+69 Bektik oluşuyor
+console.log("ForEach Metodu")
+personel.forEach(kisi => console.log(`isim : ${kisi.isim}`)) // Alt+69 Bektik oluşuyor ForEach Metodu
+console.log("Map Metodu")
+const yeni=personel.map(item => item.memleket)
+console.log(yeni)
